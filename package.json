@@ -5,8 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:core": "ng build core",
-    "build:package1": "npm run build:core && ng build package1",
+    "build:core": "ng build --tsConfig ./tsconfig.build.json core",
+    "build:package1": "npm run build:core && ng build package1 --tsConfig ./tsconfig.build.json",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

@@ -17,10 +17,12 @@
     ],
     "paths": {
       "core": [
-        "packages/core/src/public-api.ts",
+        "dist/core/core",
+        "dist/core"
       ],
       "package1": [
-        "packages/package1/src/public-api.ts",
+        "dist/package1/package1",
+        "dist/package1"
       ]
     }
   },
